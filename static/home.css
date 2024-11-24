@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-pink {
+    background-color: #ff7f7f;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 15px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    width: 80%; 
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #E3FDFD;
+    transition: all 0.2s ease-in-out;
+    font-family: "Karla", sans-serif;
+}
+.navbar-toggler-icon {
+    justify-content: space-between; /* Untuk mengatur posisi logo dan menu */
+    align-items: center;
+    position: relative; /* Bisa gunakan position absolute atau relative tergantung layout */
+    z-index: 10; /* Pastikan selalu di depan elemen lain */
+  }
+
+.bg-dark {
+    background: transparent !important;
+}
+
+.nav-link {
+    color: black !important;
+    font-family: "Karla", sans-serif;
+}
+
+.nav-link:hover {
+    color: #71C9CE !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #71C9CE;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color: black;
+    font-size: xx-large;
+}
+  
+  .btn-pink {
+    background-color: #ff7f7f;
+    color: white;
+  }
+  
+  .btn-outline-pink {
+    border-color: #ff7f7f;
+    color: #ff7f7f;
+  }
+  
+  .card {
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
